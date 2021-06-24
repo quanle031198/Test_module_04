@@ -1,0 +1,20 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Tag</th>
+      <th scope="col">Url</th>
+      <th scope="col">Descriptions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let awesome of awesomes">
+      <th scope="row">{{ awesome.id }}</th>
+      <td><a routerLink="/update/{{ awesome.id }}" routerLinkActive="active">{{ awesome.tag }}</a></td>
+      <td><a >{{ awesome.url }}</a></td>
+      <td>{{ awesome.descriptions }}</td>
+
+    </tr>
+  </tbody>
+</table>
