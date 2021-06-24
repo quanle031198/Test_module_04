@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { UpdateComponent } from './components/update/update.component';
-import { DeleteComponent } from './components/delete/delete.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -14,7 +13,7 @@ import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     ListComponent,
     UpdateComponent,
-    DeleteComponent
+
   ],
   imports: [
     BrowserModule,
